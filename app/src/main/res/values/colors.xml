@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#E1A502</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorMain">#fcb800</color>
+    <color name="colorMain1">#003a3c</color>
+    <color name="colorMain2">#932645</color>
+    <color name="colorGradstart">#C3FCB800</color>
+    <color name="colorGradend">#6AFCB800</color>
+    <color name="colorGradend1">#8F932645</color>
+
+
+    <color name="purple_main">#7A4AC3</color>
+    <color name="google_main">#FC462A</color>
+    <color name="facebook_main">#3C43E5</color>
+    <color name="gray">#969696</color>
+    <color name="light_gray">#DFDFDF</color>
+    <color name="purple">#7719AA</color>
+    <color name="dark_gray">#808080</color>
+    <color name="lightprimary">#b8dbfc</color>
+    <color name="grey_profile">#F1F1F1</color>
+
+
+
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="divider">#333333</color>
+    <color name="search_back">#DFDFDF</color>
+    <color name="productback">#f9f8f8</color>
+    <color name="status_bar_color">#FFFFFF</color>
+    <color name="off_gray">#DEDEDE</color>
+    <color name="red">#ff3647</color>
+    <color name="black_off">#FF000000</color>
+    <color name="editback">#f1f1f1</color>
+    <color name="editketext">#383838</color>
+    <color name="green">#22cb4a</color>
+    <color name="lightgray">#D3D3D3</color>
+
+    <color name="chat_out">#c4ccf8</color>
+    <color name="chat_in">#e0e3e6</color>
+    <color name="dark_red">#811700</color>
+    <color name="dark_blue">#5200D8</color>
+    <color name="reds">#FF2D00</color>
+    <color name="yellow">#CDC000</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+
+    <color name="rightbg">#ffaa68</color>
+    <color name="leftbg">#fe6e91</color>
+
+    <color name="text_black_87">#de000000</color>
+    <color name="background_card">#fff</color>
+    <color name="theme_accent">#FFEB3B</color>
+    <string name="createnote">Create note</string>
+    <color name="l_light_gray">#1B808080</color>
+    <color name="very_light_gray">#0D808080</color>
+    <color name="very_light_gray1">#79003A3C</color>
+    <color name="header_color">#515C6F</color>
+    <color name="AppRedText_color">#B20000</color>
+    <color name="AppRedText_colorlight">#12B20000</color>
+    <color name="AppGrayText_color">#777777</color>
+</resources>

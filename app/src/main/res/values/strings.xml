@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DMFT Bokaro</string>
+
+    <string name="facebook_app_id">627239341259958</string>
+    <string name="fb_login_protocol_scheme">fb166698684524011</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel1">Cancel</string>
+    <string name="select_img">Select Image From</string>
+    <string name="fit_image">FIT IMAGE</string>
+    <string name="square">SQUARE</string>
+    <string name="please_wait">Loading...</string>
+    <string name="selection_pic">To upload picture you need to allow mobile permission first. \nGo to permission -> Then allow all permission</string>
+    <string name="free">FREE</string>
+    <string name="circle">CIRCLE</string>
+    <string name="upd_image_with">Upload Profile image with</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="netERROR">Please Internet not available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Order">Order History</string>
+    <string name="menu_Transection">Transaction</string>
+    <string name="menu_profile">Profile</string>
+    <string name="activOrder">Active Order</string>
+    <string name="nextOrder">Next Order</string>
+    <string name="des">
+        Android software development is the process by which applications are created for devices running the Android operating system. Google states that[3] "Android apps can be written using Kotlin, Java, and C++ languages" using the Android software development kit (SDK), while using other languages is also possible. All non-JVM languages, such as Go, JavaScript, C, C++ or assembly, need the help of JVM language code, that may be supplied by tools, likely with restricted API support. Some programming languages and tools allow cross-platform app support (i.e. for both Android and iOS). Third party tools, development environments, and language support have also continued to evolve and expand since the initial SDK was released in 2008. The official Android app distribution mechanism to end users is Google Play; it also allows staged gradual app release, as well as distribution of pre-release app versions to testers.
+    </string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ok">Ok</string>
+    <string name="skip">Skip</string>
+</resources>

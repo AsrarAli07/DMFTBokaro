@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!--<domain includeSubdomains="true">ballu-video.s3.ap-south-1.amazonaws.com</domain>-->
+        <domain includeSubdomains="true">honeyliaemart.com</domain>
+    </domain-config>
+</network-security-config>

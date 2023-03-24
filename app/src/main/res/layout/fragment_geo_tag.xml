@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FragmentPages.GeoTagFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ivNav"
+                android:background="@drawable/navtab"
+                android:layout_marginLeft="15dp"
+                android:visibility="visible"/>
+            <com.bokaro.utils.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="GEO Tagging"
+                android:textSize="17dp"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ivLogo"
+                android:background="@drawable/govtlogo"
+                android:layout_marginRight="15dp"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <com.bokaro.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project"
+            android:textSize="14dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:id="@+id/etProjectName"
+            android:background="@drawable/edit_ract_gray_design"
+            android:layout_marginHorizontal="15dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:gravity="left"
+            android:focusableInTouchMode="false"
+            android:hint="Select Project"/>
+
+        <com.bokaro.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks"
+            android:textSize="14dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:id="@+id/etRemarks"
+            android:background="@drawable/edit_ract_gray_design"
+            android:layout_marginHorizontal="15dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:gravity="left"
+            android:hint="Enter Remark"/>
+        <com.bokaro.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitude : 00.000000"
+            android:textSize="14dp"
+            android:id="@+id/tvLongitude"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+        <com.bokaro.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitude : 00.000000"
+            android:textSize="14dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/tvLatitude"
+            android:textColor="@color/black"/>
+
+        <com.bokaro.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take Photo"
+            android:textSize="14dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+
+        <com.bokaro.utils.RoundRectCornerImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/noimageavailable"
+            android:scaleType="centerCrop"
+            android:id="@+id/ivImage"
+            android:layout_marginHorizontal="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_red_react_design"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

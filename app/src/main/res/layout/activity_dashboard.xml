@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".ActivityClasses.DashboardActivity">
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:openDrawer="start"
+            android:id="@+id/drawerLayout">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/contentView"
+                android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/frame"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/DrawerLinear"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_gravity="start">
+
+                <include
+                    android:layout_width="350dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/laDrawer"
+                    layout="@layout/drawer_layout"/>
+
+            </LinearLayout>
+        </androidx.drawerlayout.widget.DrawerLayout>
+    </LinearLayout>
+</layout>
